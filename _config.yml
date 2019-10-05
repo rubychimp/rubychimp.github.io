@@ -18,6 +18,12 @@ defaults:
     values:
       layout: "default"
 
+exclude:
+  - "*.config.js"
+  - "package*.json"
+  - "assets"
+  - "node_modules"
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
