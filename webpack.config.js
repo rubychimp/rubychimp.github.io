@@ -7,10 +7,10 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {  
   mode: isProduction ? 'production' : 'development',
   entry: {
-    rubychimp: path.resolve(__dirname, './assets/index.css'),
+    rubychimp: path.resolve(__dirname, './_tailwind/index.css'),
   },
   output: {
-    path: path.resolve(__dirname, './dist/'),
+    path: path.resolve(__dirname, './assets/css/'),
     filename: isProduction ? '[name].[hash].js' : '[name].js',
     chunkFilename: isProduction ? '[id].[hash].js' : '[id].js',
   },
@@ -37,8 +37,8 @@ module.exports = {
       filename: isProduction ? '[name].[hash].css' : '[name].css'
     }),
     new ManifestPlugin({
-      fileName: '../_data/manifest.yml',
-      publicPath: './dist/',
+      fileName: '../../_data/manifest.yml',
+      publicPath: './assets/css/',
     }),
   ],
 };

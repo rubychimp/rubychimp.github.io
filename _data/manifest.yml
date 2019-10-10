@@ -1,4 +1,4 @@
 {
-  "rubychimp.css": "./dist/rubychimp.a5c6181ca57af06b773f.css",
-  "rubychimp.js": "./dist/rubychimp.a5c6181ca57af06b773f.js"
+  "rubychimp.css": "./assets/css/rubychimp.css",
+  "rubychimp.js": "./assets/css/rubychimp.js"
 }

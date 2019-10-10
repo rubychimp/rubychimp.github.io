@@ -1,13 +1,4 @@
-collections:
-  authors:
-    output: true
-
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
   - scope:
       path: ""
       type: "posts"
@@ -21,7 +12,7 @@ defaults:
 exclude:
   - "*.config.js"
   - "package*.json"
-  - "assets"
+  - "_tailwind"
   - "node_modules"
 
 plugins:
