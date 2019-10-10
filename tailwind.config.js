@@ -3,11 +3,17 @@ module.exports = {
     extend: {
       colors: {
         gray: {
-          primary: '#1d1e1f',
+          default: '#1d1e1f',
         },
         red: {
-          primary: '#eb5d49',
-        }
+          default: '#eb5d49',
+        },
+        white: {
+          default: '#dfdfdf',
+        },
+        black: {
+          default: '#1d191d',
+        },
       }
     }
   },
