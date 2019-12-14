@@ -38,7 +38,7 @@ module.exports = {
     }),
     new ManifestPlugin({
       fileName: '../../_data/manifest.yml',
-      publicPath: './assets/css/',
+      publicPath: '/assets/css/',
     }),
   ],
 };

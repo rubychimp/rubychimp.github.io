@@ -7,12 +7,17 @@
     {% feed_meta %}
     {% seo %}
   </head>
-  <body class="bg-gray text-white">
+  <body class="bg-gray text-white min-h-screen">
     <header class="bg-red text-black">
-      <div class="max-w-4xl mx-auto">
-        logo
+      <div class="h-32 max-w-4xl mx-auto">
+        <img class="h-full mx-auto" src="/assets/images/logo.svg">
       </div>
     </header>
-    {{ content }}
+    <div class="pt-5 mx-auto max-w-3xl text-xl">
+      {{ content }}
+    </div>
+    <footer class="w-full text-center text-gray-tertiary p-2">
+      We're all just monkeys in shoes.
+    </footer>
   </body>
 </html>

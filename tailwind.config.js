@@ -4,6 +4,8 @@ module.exports = {
       colors: {
         gray: {
           default: '#1d1e1f',
+          secondary: '#58595a',
+          tertiary: '#454647',
         },
         red: {
           default: '#eb5d49',
